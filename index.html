@@ -4,8 +4,145 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria - Café Sereno</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    
+    <header class="topo" id="topo">
+        <a href="#topo" class="logo">
+            <img src="/img/logo-da-cafeteria-cafe-sereno.png" alt="Logo do Café Sereno">Café Sereno</a>
+
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#topo">Início</a>
+                </li>
+
+                <li>
+                    <a href="#especialidades">Especialidades</a>
+                </li>
+
+                <li>
+                    <a href="#cardapio">Cardápio</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <h1>Bem-vindo ao Café Sereno</h1>
+            <p>
+                Um momento para saborear.
+                Cafés especiais, doces e sabores preparados
+                para tornar seu dia ainda melhor.
+            </p>
+            <a href="#cardapio" class="botao">
+                Ver nosso cardápio
+            </a>
+        </section>
+
+        <section class="secao" id="especialidades">
+            <h2>Nossas Especialidades</h2>
+            <div class="grade limpa">
+                <article class="card">
+                    <img src="/img/imagem-do-cappuccino.jpg"
+                        alt="Cappuccino servido em uma xícara">
+                    <h3>Cappuccino</h3>
+                    <p>
+                        Café cremoso com leite e espuma,
+                        perfeito para qualquer momento.
+                    </p>
+                    <p class="preco">
+                        R$ 10,00
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img src="/img/imagem-croissant.jpg"
+                        alt="Croissant servido em um prato">
+                    <h3>Croissant</h3>
+                    <p>
+                        Massa leve e crocante,
+                        preparada para acompanhar seu café.
+                    </p>
+                    <p class="preco">
+                        R$ 12,00
+                    </p>
+                </article>
+
+                <article class="card">
+                    <img src="/img/imagem-brownie.jpg"
+                        alt="Brownie de chocolate">
+                    <h3>Brownie</h3>
+                    <p>
+                        Brownie de chocolate com textura
+                        macia e sabor intenso.
+                    </p>
+                    <p class="preco">
+                        R$ 11,00
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="secao" id="cardapio">
+            <h2>Nosso Cardápio</h2>
+            <div class="grade limpa">
+                <article class="card categoria">
+                    <img src="/img/imagem-do-cafe.jpg"
+                        alt="Café servido em uma xícara">
+                    <h3>Cafés</h3>
+                    <ul>
+                        <li>Café Espresso — R$ 6,00</li>
+                        <li>Cappuccino — R$ 10,00</li>
+                        <li>Café com Leite — R$ 8,00</li>
+                        <li>Mocha — R$ 12,00</li>
+                    </ul>
+                </article>
+
+                <article class="card categoria">
+                    <img src="/img/imagem-dos-salgados.jpg"
+                        alt="Salgados variados">
+                    <h3>Salgados</h3>
+                    <ul>
+                        <li>Pão de Queijo — R$ 7,00</li>
+                        <li>Croissant — R$ 12,00</li>
+                        <li>Empada — R$ 9,00</li>
+                        <li>Sanduíche — R$ 14,00</li>
+                    </ul>
+                </article>
+
+                <article class="card categoria">
+                    <img src="/img/imagem-dos-doces.jpg"
+                        alt="Doces variados">
+                    <h3>Doces</h3>
+                    <ul>
+                        <li>Bolo de Chocolate — R$ 10,00</li>
+                        <li>Cheesecake — R$ 14,00</li>
+                        <li>Brownie — R$ 11,00</li>
+                        <li>Cookie — R$ 7,00</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+        <h2>Café Sereno</h2>
+        <p>Rua das Flores, 123 - Centro</p>
+        <p>Segunda a sábado, das 8h às 20h</p>
+        <p>contato@cafesereno.com.br</p>
+        <p>
+            &copy; 2026 Café Sereno -
+            Todos os direitos reservados.
+        </p>
+    </footer>
 </body>
+
 </html>
